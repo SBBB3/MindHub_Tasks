@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../Images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../StyleCSS/style.css">
+    <title>Daflogui Cake| Raffle</title>
+</head>
+<body>
+    <header>
+        <nav id="button_Container">
+            <a href="../../index.html">Home</a>
+            <a href="./aboutUs.html">About Us</a>
+            <a href="./benefits.html">Benefits</a>
+            <a href="./moreInfo.html">More Info</a>
+            <a href="#" id="push">Raffle</a>
+            <a href="./contact.html">Contact Us</a>
+        </nav>
+
+        <div id="logoNav">
+            <img src="../Images/logo.png" alt="">
+        </div>
+    </header>
+
+    <main>
+        <section class="encabezado">
+            <h1 class="titulo">Raffle</h1>
+            <h2 class="subtitulo">You can participate in a raffle. The price is a coffee pot.</h2>
+        </section>
+
+        <Section class="formContain">
+                <div id="imgForm">
+                    <img src="../Images/cup-w-coffee.jpg" alt="">
+                    <img src="../Images/heart-coffee.jpg" alt="">
+                </div>  
+                
+                <form action="./show_data.html">
+                    <fieldset class="form">
+                <!-- PERSONAL DATA -->
+                    <h4>First Name</h4>
+                    <label for="name"></label>
+                    <input type="text" id="name">
+
+                    <h4>Last Name</h4>
+                    <label for="lastname"></label>
+                    <input type="text" id="lastname">
+
+                    <h4>Email</h4>
+                    <label for="email"></label>
+                    <input type="text" id="email">
+                    <!-- CHOOSE -->
+                    <h4>Choose a color for your coffee pot:</h4>
+                    <label for="colorpot"></label>
+                    <input type="text" id="colorpot">
+                    </fieldset>
+
+                    <h4>Country:</h4>
+                    <label for="country"></label>
+                    <select name="paisSelect" id="country">
+                    <option>Argentina</option>
+                    <option>Chile</option>
+                    <option>Colombia</option>
+                </select>
+                
+                    <!-- PAYMENT -->
+                <h4>Payment Options::</h4>
+                <input type="radio" id="cash" name="payment" value="cash">
+                <label for="cash">Cash</label>
+                <br>
+                <input type="radio" id="credit" name="payment" value="credit">
+                <label for="credit">Credit Card</label>
+                <br>
+                <input type="radio" id="debit" name="payment" value="debit">
+                <label for="debit">Debit Card</label>
+            </fieldset>
+        </Section>
+        <input type="submit" value="Send">
+        </form>
+
+<!-- MAPA FLORIDA -->
+
+
+
+    </main>
+    
+    <footer class="footInfo">
+        
+        <div id="mapFoot">
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112735.25406301909!2d-82.53668033038366!3d27.994609572276744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88c2c3845812a1cb%3A0xc344aeb638f6ee7a!2sTampa%20Museum%20of%20Art!5e0!3m2!1ses!2sco!4v1682063517394!5m2!1ses!2sco" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+            <a href="mailto:KopiCoffe@gmail.com">Email: KopiCoffe@gmail.com</a>
+            <a href="tel:+177123100">Telephone: +177123100 </a>
+        
+            <h6>Creado por: SANTIAGO BETANCUR BETANCUR</h6>
+    </footer>
+    
+    </body>
+</html>
